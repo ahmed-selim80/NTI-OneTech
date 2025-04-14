@@ -48,6 +48,7 @@ function disProEight() {
   document.querySelector(".hot-products-left").innerHTML = pro;
 }
 
+
 async function addToCart(proId) {
   console.log(proId);
   let res = await fetch("https://ecommerce.routemisr.com/api/v1/cart", {
