@@ -22,7 +22,7 @@ async function login(data) {
   console.log(finalRes);
   if (finalRes.message == "success") {
     toastr["success"](`${finalRes.message} `);
-    window.location.href = "index.html";
+    window.location.href = "main.html";
     localStorage.setItem("userToken", JSON.stringify(finalRes.token));
   } else {
     toastr["error"](`${finalRes.message} `);
