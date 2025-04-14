@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WishList</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- start fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- end fonts -->
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-parent">
+                <a style="text-decoration: none; color: rgb(0, 153, 204);" href="index.html"><h1>OneTech</h1></a>
+
+                <div class="header-search-area">
+                    <input placeholder="Search..." type="text">
+
+                    <select>
+                        <option selected value="All Categories">All Categories</option>
+                        <option value="Computers">Computers</option>
+                        <option value="Laptops">Laptops</option>
+                        <option value="Cameras">Cameras</option>
+                        <option value="Hardware">Hardware</option>
+                        <option value="Smartphones">Smartphones</option>
+                    </select>
+
+                    <button><i style="font-size: 18px;" class="fa-solid fa-magnifying-glass"></i></button>
+                </div><!-- header-search-area -->
+
+
+                <div class="header-carts">
+                    <div class="header-wishlist">
+                        
+                        <div class="wishlist-img">
+                            <img src="images/wishlist_cart/wishlist.webp" alt="wishlist">
+                        </div><!-- wishlist-img -->
+                        
+                        <div><a style="text-decoration: none; color: black;" href="#"><h3>wishlist</h3></a></div>
+                    </div><!-- header-wishlist -->
+
+                    <div class="header-cart">
+
+                        <div class="cart-img">
+                            <img src="images/wishlist_cart/cart.webp" alt="wishlist">
+                            <div class="cart-counter">0</div><!-- cart-counter -->
+                        </div><!-- header-img -->
+                        
+                        <div class="cart-price">
+                            <a style="text-decoration: none; color: black;" href="#"><p>Cart</p></a>
+                            <p>$0</p>
+                        </div><!-- cart-price -->
+                    </div><!-- header-cart -->
+                </div><!-- header-carts -->
+            </div><!-- header-parent -->
+        </div><!-- container -->
+    </header>
+
+
+    <div class="second-header-frame">
+        <div class="container">
+            <div class="second-header">
+                <div class="second-header-categories">
+                    <i class="fa-solid fa-bars"></i>
+                    <h2>CATEGORIES</h2>
+                    <div class="categories-links">
+                        <a href="#">Computers & Laptops</a>
+                        <a href="#">Cameras</a>
+                        <a href="#">Hardware</a>
+                        <a href="#">Smartphones & Tablets</a>
+                        <a href="#">Gadgets</a>
+                        <a href="#">Car Electronics</a>
+                        <a href="#">Video games & Consoles</a>
+                    </div><!-- categories-links -->
+                </div><!-- second-header-categories -->
+
+                <div class="second-header-menu-body">
+                    <div class="second-header-menu">
+                        <h2>MENU</h2>
+                        <i class="fa-solid fa-bars"></i>
+                    </div><!-- second-header-menu -->
+
+                    <!-- <div class="menu-links">
+                        <ul class="menu-ul">
+                            <li>Home</li>
+                            <li>Super Deals</li>
+                            <li>New Arrival</li>
+                            <li>Trends</li>
+                            <li>Pages<i class="fa-solid fa-arrow-down-long"></i></li>
+                            <div class="pages-links">
+                                <a href="#">Shop</a>
+                                <a href="#">Products</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Cart</a>
+                                <a href="#">Wishlist</a>
+                                <a href="#">Contact</a>
+                            </div>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    <div> -->
+
+                </div><!-- second-header-menu-body -->
+                    
+                <ul>
+                    <li>Home</li>
+                    <li>Super Deals</li>
+                    <li>New Arrival</li>
+                    <li>Trends</li>
+                    <li style="position: relative;" class="pages-li">Pages<i class="fa-solid fa-arrow-down-long"></i>
+                    
+                        <div class="pages-links">
+                            <a href="#">Shop</a>
+                            <a href="#">Products</a>
+                            <a href="#">Blog</a>
+                            <a href="shopping-cart.html">Cart</a>
+                            <a href="wishlist.html">Wishlist</a>
+                            <a href="#">Contact</a>
+                        </div><!-- pages-links -->
+                    </li>
+                    
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div><!-- second-header -->
+        </div><!-- container -->
+    </div><!-- second-header-frame -->
+
+
+
+    <div class="cart-container">
+        <h1>WishList</h1>
+
+        <div class="cart-body">
+
+            <div class="cart-object">
+
+                <i class="fa-solid fa-trash"></i>
+
+                <img src="images/new-arrivals/img4.webp" alt="">
+                <div class="cart-details">
+
+                    <div class="cart-detail">
+                        <p>Name</p>
+                        <p>MacBook Air 13</p>
+                    </div><!-- cart-detail -->
+
+                    <div class="cart-detail">
+                        <p>Quantity</p>
+                        <p>1</p>
+                    </div><!-- cart-detail -->
+
+                    <div class="cart-detail">
+                        <p>Price</p>
+                        <p>500$</p>
+                    </div><!-- cart-detail -->
+
+                    <div class="cart-detail">
+                        <p>Total</p>
+                        <p>500$</p>
+                    </div><!-- cart-detail -->
+                </div><!-- cart-details -->
+            </div><!-- cart-object -->
+
+            
+        </div><!-- cart-body -->
+
+        <div class="cart-total">
+            <p>Order Total: <span style="font-weight: 600; font-size: 16px; color: black;">500$</span></p>
+        </div><!-- cart-total -->
+
+        <button>
+            Cart
+        </button>
+    </div><!-- cart-container -->
+
+
+
+
+    
+
+    <footer>
+        <div class="first-footer-bg">
+            <div class="container">
+                <div class="first-footer">
+                    <div class="first-footer-left">
+                        <img src="images/telegram.webp" alt="">
+                        <div class="first-footer-left-info">
+                            <p>Sign up for Newsletter</p>
+                            <p>...and receive %20 coupon for first shopping.</p>
+                        </div>
+                    </div><!-- first-footer-left -->
+
+                    <div class="first-footer-right">
+                        <div class="footer-input">
+                            <input type="text" placeholder="Enter Your Email Address">
+                            <button>Subscribe</button>
+                        </div><!-- footer-input -->
+                    </div><!-- first-footer-right -->
+                
+                </div><!-- first-footer -->
+            </div><!-- container -->
+        </div><!-- first-footer-bg -->
+
+
+
+
+
+        <div class="container">
+            <div class="second-footer">
+
+                <div class="second-footer1">
+                    <h1>OneTech</h1>
+
+                    <p>Got a question? Contact Us!!!</p>
+                    <p>+20-1112629916</p>
+                    <p>ahmedselimnoshi@gmail.com</p>
+                    <p>Qalyobia , banha , begira</p>
+
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                    </ul>
+                </div><!-- second-footer1 -->
+
+                <div class="second-footer2">
+                    <h6>Find it Fast</h6>
+
+                    <ul>
+                        <li><a href="#">Computers & Laptops</a></li>
+                        <li><a href="#">Cameras & Photos</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Smartphones & Tablets</a></li>
+                        <li><a href="#">TV & Audio</a></li>
+                        <li><a href="#">Gadgets</a></li>
+                        <li><a href="#">Car Electronics</a></li>
+                        <li><a href="#">Video Games & Consoles</a></li>
+                    </ul>
+                </div><!-- second-footer2 -->
+
+                <div class="second-footer3">
+                    <h6>Customer Care</h6>
+
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Wish List</a></li>
+                        <li><a href="#">Customer Services</a></li>
+                        <li><a href="#">Returns / Exchange</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Product Support</a></li>
+                    </ul>
+                    
+                </div><!-- second-footer3 -->
+            </div><!-- second-footer -->
+        </div><!-- container -->
+
+
+        <div class="last-footer">
+            <div class="container">
+                <div class="last-footer-body">
+
+                    <p>Copyright&copy;2021 All rights reserved|This template is made by <span style="color: #10afe4; cursor: pointer;">Triple-o</span></p>
+
+                    <ul>
+                        <li><img src="images/footer/footer1.webp" alt=""></li>
+                        <li><img src="images/footer/footer2.webp" alt=""></li>
+                        <li><img src="images/footer/footer3.webp" alt=""></li>
+                        <li><img src="images/footer/footer4.webp" alt=""></li>
+                    </ul>
+
+                </div><!-- last-footer -->
+            </div><!-- container -->
+        </div><!-- last-footer -->
+    </footer>
+
+
+    <script src = "js/script.js"></script>
+</body>
+</html>
